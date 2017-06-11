@@ -1,3 +1,3 @@
 # diagnostics
 
-A function to quickly make plts to diagnose model performance.
+A function to quickly make plots to diagnose model performance.
