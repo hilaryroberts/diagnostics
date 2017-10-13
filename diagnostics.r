@@ -96,3 +96,22 @@ diagnose <- function(diagnostics, scores, response, segs, title, rsltn = 1000, t
     outplot
     
 }
+
+                                      
+                                      
+high <- "#FF4DD2"
+deep <- "#00E4FF"
+back <- "#181554"
+periph <- "#949696"
+score <- "#2A2D34"
+
+
+neo <- theme(
+    panel.background = element_rect(fill = back),
+    #legend.background = element_rect(fill = score),
+    panel.grid.major = element_line(colour = periph),
+    panel.grid.minor = element_line(colour = score),
+    axis.text = element_text(size = 12, face = "italic"),
+    axis.title = element_text(size = 14, face = "italic"),
+    plot.title = element_text(size = 20, face = "bold")
+)
